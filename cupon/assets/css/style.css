@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto';
+}
+.bg-propio {
+    background-color: #28a745;
+}
+.card-img-top {
+    width: 100%;
+    height: 15em;
+}
+.card-title {
+    font-size: 20pt;
+    font-weight: 300;
+   
+}
+.card-subtitle {
+    color:#707070;
+}
+.card-text {
+    color:#707070;
+}
+.precio {
+    text-align: right;
+    font-size: 15pt;
+}
+.mayor {
+    color: #707070;
+    font-size: 13pt;
+}
+.menor {
+    color:#28A745;
+    font-size: 20pt;
+}
+.formulario {
+    background-color: #28A745;
+}
+
+span {
+    font-size: 21pt;
+
+}
+.mb-3 {
+    padding:20px;
+}
+
+
+.button {
+    text-align: center;
+}
