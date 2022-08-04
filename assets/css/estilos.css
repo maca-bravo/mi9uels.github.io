@@ -7,20 +7,25 @@ body {
 
 /* Hero Section */
 
-#Hero-Section {
-  background-image: url("../img/fondo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-  width: 150;
-  height: 200;
+
+  
+  #Hero-Section {
+    background-image: url("../img/fondo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #e4e5e9;
+    background-image: url(../img/fondo.jpg), -moz-linear-gradient(left, #e4e5e9 0%, #f7f8fa 100%);
+    background-image: url(../img/fondo.jpg), -webkit-gradient(left top, right top, color-stop(0%, #e4e5e9), color-stop(100%, #f7f8fa));
+    background-image: url(../img/fondo.jpg), -webkit-linear-gradient(left, #e4e5e9 0%, #f7f8fa 100%);
+    background: -o-linear-gradient(left, #e4e5e9 0%, #f7f8fa 100%);
+    background: -ms-linear-gradient(left, #e4e5e9 0%, #f7f8fa 100%);
+    background-image: url(../img/fondo.jpg), linear-gradient(to right, #e4e5e9 0%, #f7f8fa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e5e9', endColorstr='#f7f8fa', GradientType=1 );
+    background-position: center;
 }
 
-
-.my-5{
-  color: black;
-}
 /* Mis trabajos */
+
 
 #Mis-trabajos .image-top {
   height: 250px;
